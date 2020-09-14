@@ -10,7 +10,7 @@ class Backer
   def back_project(project)
      # If we are calling this method in this way, what type of argument is it taking?
     # We are actually passing in a Project object! Cool, huh?
-    @backed_projects << project.title
+    @backed_projects << project
   end
   
   
